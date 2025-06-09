@@ -39,8 +39,8 @@ importers:
         specifier: ^3.0.4
         version: 3.0.4(react@19.2.0-canary-39cad7af-20250411)
       rwsdk:
-        specifier: 0.1.0-alpha.2
-        version: 0.1.0-alpha.2(rollup@4.38.0)(typescript@5.8.2)(vite@6.2.4(@types/node@22.13.14)(jiti@2.4.2)(lightningcss@1.29.2)(terser@5.36.0)(tsx@4.19.2)(yaml@2.6.1))(webpack@5.96.1(esbuild@0.25.2))(workerd@1.20250525.0)
+        specifier: 0.1.0-alpha.5
+        version: 0.1.0-alpha.5(rollup@4.38.0)(typescript@5.8.2)(vite@6.2.4(@types/node@22.13.14)(jiti@2.4.2)(lightningcss@1.29.2)(terser@5.36.0)(tsx@4.19.2)(yaml@2.6.1))(webpack@5.96.1(esbuild@0.25.2))(workerd@1.20250525.0)
       sonner:
         specifier: ^1.7.4
         version: 1.7.4(react-dom@19.2.0-canary-39cad7af-20250411(react@19.2.0-canary-39cad7af-20250411))(react@19.2.0-canary-39cad7af-20250411)
@@ -2303,8 +2303,8 @@ packages:
   run-parallel@1.2.0:
     resolution: {integrity: sha512-5l4VyZR86LZ/lDxZTR6jqL8AFE2S0IFLMP26AbjsLVADxHdhB/c0GUsH+y39UfCi3dzz8OlQuPmnaJOMoDHQBA==}
 
-  rwsdk@0.1.0-alpha.2:
-    resolution: {integrity: sha512-myTTxPCJi/zYH2V/mO151b3aogc3rqvKzUqaC8Gs41AAJR+XFsZScv9pRfasxd1oPML8Mt97ui+c0g8EVRcR2A==}
+  rwsdk@0.1.0-alpha.5:
+    resolution: {integrity: sha512-v4VmaPb442daDi9pPeNGSJNxj+ao8v4w2KA6kJ36WPJA0AVVQEH80veTuV76q+NN5PAfvpqG/Ip7p01GzlWJnw==}
     hasBin: true
     peerDependencies:
       vite: ^6.2.6
@@ -4792,7 +4792,7 @@ snapshots:
     dependencies:
       queue-microtask: 1.2.3
 
-  rwsdk@0.1.0-alpha.2(rollup@4.38.0)(typescript@5.8.2)(vite@6.2.4(@types/node@22.13.14)(jiti@2.4.2)(lightningcss@1.29.2)(terser@5.36.0)(tsx@4.19.2)(yaml@2.6.1))(webpack@5.96.1(esbuild@0.25.2))(workerd@1.20250525.0):
+  rwsdk@0.1.0-alpha.5(rollup@4.38.0)(typescript@5.8.2)(vite@6.2.4(@types/node@22.13.14)(jiti@2.4.2)(lightningcss@1.29.2)(terser@5.36.0)(tsx@4.19.2)(yaml@2.6.1))(webpack@5.96.1(esbuild@0.25.2))(workerd@1.20250525.0):
     dependencies:
       '@cloudflare/vite-plugin': 0.0.0-1bae8618b(rollup@4.38.0)(vite@6.2.4(@types/node@22.13.14)(jiti@2.4.2)(lightningcss@1.29.2)(terser@5.36.0)(tsx@4.19.2)(yaml@2.6.1))(workerd@1.20250525.0)(wrangler@4.19.1(@cloudflare/workers-types@4.20250408.0))
       '@cloudflare/workers-types': 4.20250408.0
